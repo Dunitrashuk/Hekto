@@ -1,0 +1,39 @@
+.header__select {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+}
+
+.header__select svg {
+  height: 1.6rem;
+  width: 1.6rem;
+  fill: none;
+  stroke: var(--color-white);
+}
+
+.dropdown {
+  position: absolute;
+  top: 130%;
+  right: 0;
+  z-index: 2;
+  background-color: var(--color-tertiary);
+}
+
+.dropdown ul {
+  list-style: none;
+}
+
+.dropdown li {
+  padding: 1rem 1.5rem;
+  transition: all 0.2s;
+}
+
+.dropdown li:hover {
+  background-color: var(--color-info);
+}
+
+.svg-open {
+  transform: rotate(-180deg);
+}
