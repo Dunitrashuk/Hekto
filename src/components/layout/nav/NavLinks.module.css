@@ -13,3 +13,7 @@
 .link:hover {
   color: var(--color-tertiary);
 }
+
+.link:focus {
+  color: var(--color-primary);
+}
