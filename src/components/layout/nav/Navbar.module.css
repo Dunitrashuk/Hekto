@@ -1,0 +1,20 @@
+.navbar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100vw;
+  padding: 2rem 0;
+  color: var(--color-white);
+}
+
+.navbar__content {
+  width: 144rem;
+  display: flex;
+  align-items: flex-end;
+  height: min-content;
+  gap: 8.8rem;
+}
+
+img {
+  width: 9.8rem;
+}

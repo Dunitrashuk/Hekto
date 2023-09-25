@@ -1,0 +1,15 @@
+.nav__links {
+  display: flex;
+  list-style: none;
+  gap: 3.5rem;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-black);
+  transition: all 0.2s;
+}
+
+.link:hover {
+  color: var(--color-tertiary);
+}
