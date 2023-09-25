@@ -1,7 +1,12 @@
 import React from "react";
+import PageHeader from "../components/UI/PageHeader";
 
 function Cart() {
-  return <div>Cart</div>;
+  return (
+    <>
+      <PageHeader title="Shopping Cart" />
+    </>
+  );
 }
 
 export default Cart;

@@ -1,7 +1,12 @@
 import React from "react";
+import PageHeader from "../components/UI/PageHeader";
 
 function Home() {
-  return <div>Home</div>;
+  return (
+    <>
+      <PageHeader title="Home" />
+    </>
+  );
 }
 
 export default Home;
