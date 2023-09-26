@@ -20,7 +20,6 @@ function NavLinks() {
         </li>
         <li>
           <NavLink
-            Link
             to="/shop"
             className={({ isActive }) =>
               (isActive ? classes.activeLink : classes.link) +
