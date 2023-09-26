@@ -5,7 +5,7 @@
   width: 100vw;
   background-color: var(--color-tertiary);
   color: var(--color-white);
-  padding: 1.5rem 2rem;
+  padding: 0 2rem;
 }
 
 .header__content {
@@ -13,7 +13,7 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  height: inherit;
+  height: 4.4rem;
   gap: 4.8rem;
 }
 
@@ -30,10 +30,15 @@ svg {
 }
 
 @media only screen and (max-width: 900px) {
+  .header {
+    padding: 1.5rem 2rem;
+  }
+
   .header__content {
     flex-direction: column;
     justify-content: center;
     gap: 1.5rem;
+    height: inherit;
   }
 
   .header__options {
