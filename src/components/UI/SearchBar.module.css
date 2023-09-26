@@ -40,3 +40,9 @@
   width: 2.4rem;
   fill: var(--color-white);
 }
+
+@media only screen and (max-width: 850px) {
+  .searchbar {
+    margin-left: 0;
+  }
+}
