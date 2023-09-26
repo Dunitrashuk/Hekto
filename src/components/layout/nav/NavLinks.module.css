@@ -14,6 +14,7 @@
   color: var(--color-tertiary);
 }
 
-.link:focus {
+.activeLink {
+  text-decoration: none;
   color: var(--color-primary);
 }

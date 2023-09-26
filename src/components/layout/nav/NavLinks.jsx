@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import classes from "./NavLinks.module.css";
 
 function NavLinks() {
@@ -7,19 +7,39 @@ function NavLinks() {
     <nav>
       <ul className={classes.nav__links}>
         <li>
-          <Link to="/" className={classes.link + " body-text-regular-sm"}>
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              (isActive ? classes.activeLink : classes.link) +
+              " body-text-regular-sm"
+            }
+            end
+          >
             Home
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/shop" className={classes.link + " body-text-regular-sm"}>
+          <NavLink
+            Link
+            to="/shop"
+            className={({ isActive }) =>
+              (isActive ? classes.activeLink : classes.link) +
+              " body-text-regular-sm"
+            }
+          >
             Shop
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/cart" className={classes.link + " body-text-regular-sm"}>
+          <NavLink
+            to="/cart"
+            className={({ isActive }) =>
+              (isActive ? classes.activeLink : classes.link) +
+              " body-text-regular-sm"
+            }
+          >
             Cart
-          </Link>
+          </NavLink>
         </li>
       </ul>
     </nav>
