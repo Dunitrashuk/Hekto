@@ -1,10 +1,10 @@
 import React from "react";
-import classes from "./Slide.module.css";
-import circles from "./../../assets/svgs/heroCircles.svg";
-import offerCircles from "./../../assets/svgs/heroPrice.svg";
-import ButtonPrimary from "./ButtonPrimary";
+import classes from "./HeroSlide.module.css";
+import circles from "./../../../assets/svgs/heroCircles.svg";
+import offerCircles from "./../../../assets/svgs/heroPrice.svg";
+import ButtonPrimary from "../../../components/UI/ButtonPrimary";
 
-function Slide({ product }) {
+function HeroSlide({ product }) {
   return (
     <div className={classes.slide}>
       <img
@@ -50,4 +50,4 @@ function Slide({ product }) {
   );
 }
 
-export default Slide;
+export default HeroSlide;

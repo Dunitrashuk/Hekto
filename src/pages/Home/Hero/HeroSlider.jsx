@@ -1,14 +1,15 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
-import classes from "./Slider.module.css";
+import classes from "./HeroSlider.module.css";
 
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import Slide from "./Slide";
 
-function Slider(props) {
+import HeroSlide from "./HeroSlide";
+
+function HeroSlider(props) {
   return (
     <>
       <Swiper
@@ -27,7 +28,7 @@ function Slider(props) {
       >
         {props.data.map((product) => (
           <SwiperSlide key={product.id} className={classes.swiperSlide}>
-            <Slide product={product} />
+            <HeroSlide product={product} />
           </SwiperSlide>
         ))}
       </Swiper>
@@ -35,4 +36,4 @@ function Slider(props) {
   );
 }
 
-export default Slider;
+export default HeroSlider;
