@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import HeroSlider from "./HeroSlider";
+import classes from "./Hero.module.css";
 
 function Hero() {
   const [sliderData, setSliderData] = useState([]);
 
   useEffect(() => {
-    console.log("Home");
     fetch("http://localhost:3000/products?brand=EleganceHome")
       .then((response) => {
         if (!response.ok) {
@@ -21,7 +21,11 @@ function Hero() {
       });
   }, []);
 
-  return sliderData.length > 0 && <HeroSlider data={sliderData} />;
+  return (
+    <div className={classes.hero}>
+      {sliderData.length > 0 && <HeroSlider data={sliderData} />}
+    </div>
+  );
 }
 
 export default Hero;
