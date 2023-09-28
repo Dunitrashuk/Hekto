@@ -1,0 +1,21 @@
+.featured__slider {
+  width: 100%;
+  padding: 5.5rem 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  :global(.swiper-pagination-bullet) {
+    background: #febad7;
+    width: 1.6rem;
+    height: 0.4rem;
+    opacity: 1;
+    border-radius: 1rem;
+    transition: all 0.2s;
+  }
+
+  :global(.swiper-pagination-bullet-active) {
+    background-color: var(--color-primary);
+    width: 2.4rem;
+  }
+}
