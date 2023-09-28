@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  background-color: var(--color-tertiary);
+  color: var(--color-white);
+  padding: 0 2rem;
+}
+
+.header__content {
+  width: 144rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 4.4rem;
+  gap: 4.8rem;
+}
+
+svg {
+  height: 1.6rem;
+  width: 1.6rem;
+  fill: var(--color-white);
+}
+
+.header__options {
+  margin-left: auto;
+  display: flex;
+  gap: 3.5rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .header {
+    padding: 1.5rem 2rem;
+  }
+
+  .header__content {
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    height: inherit;
+  }
+
+  .header__options {
+    margin-left: 0;
+  }
+}

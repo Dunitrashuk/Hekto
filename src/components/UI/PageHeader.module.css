@@ -1,0 +1,12 @@
+.header {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f5ff;
+  padding: 8rem 2rem;
+}
+
+.header__content {
+  width: 144rem;
+}

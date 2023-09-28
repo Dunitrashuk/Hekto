@@ -1,0 +1,41 @@
+.email__input {
+  height: 4rem;
+  width: 37.7rem;
+  border-radius: 0.8rem;
+  padding: 0.2rem;
+  display: flex;
+  background-color: var(--color-white);
+}
+
+.__input {
+  height: 100%;
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  font-size: 1.6rem;
+}
+
+.__input::placeholder {
+  color: var(--color-grey-3);
+}
+
+.__button {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  height: 100%;
+  width: fit-content;
+  border-radius: 0.6rem;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  cursor: pointer;
+  transition: all 0.2s;
+  padding: 0 4rem;
+}
+
+.__button:hover {
+  background-color: var(--color-primary-dark);
+}
