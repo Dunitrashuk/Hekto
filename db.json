@@ -11,8 +11,17 @@
       "brand": "Apple",
       "offer": "14",
       "rating": 5,
+      "reviews": 22,
       "colors": ["silver", "black"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The Apple Smart Watch is a versatile and stylish accessory that combines fashion with functionality. This unisex watch, part of the 3 series, offers a range of features to enhance your daily life. Stay connected, track your fitness, and make a statement with this premium Apple watch.",
+      "bulletPoints": [
+        "3 series unisex smart watch",
+        "Fashionable silver and black color options",
+        "Advanced fitness tracking",
+        "High customer rating (5 stars)",
+        "Available at a discounted price"
+      ]
     },
     {
       "id": 2,
@@ -24,9 +33,17 @@
       "category": "watch",
       "brand": "Fossil",
       "offer": "17",
-      "rating": 4.5,
+      "rating": 4,
+      "reviews": 15,
       "colors": ["rose gold", "white"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The Fossil Women's Watch is the epitome of elegance and style. Designed for women with a taste for fashion, this watch adds a touch of sophistication to any outfit. With its rose gold and white color options, it's the perfect accessory for any occasion.",
+      "bulletPoints": [
+        "Elegant design for women",
+        "Available in rose gold and white",
+        "Great customer reviews (4 stars)",
+        "Currently on sale"
+      ]
     },
     {
       "id": 3,
@@ -38,9 +55,17 @@
       "category": "watch",
       "brand": "Casio",
       "offer": "16",
-      "rating": 4,
+      "rating": 3,
+      "reviews": 18,
       "colors": ["black", "white"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The Casio Digital Watch is a versatile timepiece with a range of useful functions. Whether you need a reliable watch for everyday use or want to explore its multiple features, this Casio watch offers excellent value for your money.",
+      "bulletPoints": [
+        "Digital watch with multiple functions",
+        "Available in black and white",
+        "Good customer feedback (3 stars)",
+        "Affordable price"
+      ]
     },
     {
       "id": 4,
@@ -48,13 +73,21 @@
       "title": "LG Gaming Headset",
       "originalPrice": 49.99,
       "price": 39.99,
-      "description": "Gaming Headset for Proffesional Gamers",
+      "description": "Gaming Headset for Professional Gamers",
       "category": "electronics",
       "brand": "LG",
       "offer": "10",
-      "rating": 4.2,
+      "rating": 2,
+      "reviews": 5,
       "colors": ["blue", "black"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The LG Gaming Headset is designed for serious gamers who demand top-notch audio performance. Immerse yourself in your favorite games with crystal-clear sound and comfortable design. Take advantage of the current offer to level up your gaming experience.",
+      "bulletPoints": [
+        "High-quality gaming headset",
+        "Available in blue and black",
+        "Mixed customer reviews (2 stars)",
+        "Limited-time offer"
+      ]
     },
     {
       "id": 5,
@@ -62,27 +95,43 @@
       "title": "Beats Pro Headset",
       "originalPrice": 159.99,
       "price": 124.99,
-      "description": "Comfortable, proffesional beats headset",
+      "description": "Comfortable, professional Beats headset",
       "category": "electronics",
       "brand": "Beats",
       "offer": "20",
-      "rating": 4.7,
+      "rating": 4,
+      "reviews": 8,
       "colors": ["red", "black"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The Beats Pro Headset delivers an exceptional audio experience for music enthusiasts and professionals alike. With its comfortable design and high-quality sound, this Beats headset is the perfect choice for those who demand the best in audio quality.",
+      "bulletPoints": [
+        "Professional-grade audio quality",
+        "Available in red and black",
+        "Positive customer reviews (4 stars)",
+        "Great discount available"
+      ]
     },
     {
       "id": 6,
       "imageUrl": "headset3.png",
-      "title": "Antryx proffesional headset",
+      "title": "Antryx Professional Headset",
       "originalPrice": 79.99,
       "price": 69.99,
-      "description": "Antryx proffesional headset for gaming",
+      "description": "Antryx professional headset for gaming",
       "category": "electronics",
-      "brand": "antryx",
+      "brand": "Antryx",
       "offer": "12",
-      "rating": 4.8,
+      "rating": 3,
+      "reviews": 14,
       "colors": ["black", "blue"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The Antryx Professional Headset is a must-have for gamers looking for a competitive edge. With its superior sound quality and comfortable fit, this headset enhances your gaming experience. Don't miss the special offer on this Antryx gaming headset.",
+      "bulletPoints": [
+        "Professional gaming headset",
+        "Available in black and blue",
+        "Satisfactory customer reviews (3 stars)",
+        "Limited-time discount"
+      ]
     },
     {
       "id": 7,
@@ -94,10 +143,17 @@
       "category": "electronics",
       "brand": "Sony",
       "offer": "18",
-      "rating": 4.6,
+      "rating": 4,
       "reviews": 12,
       "colors": ["black", "white"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "Experience the ultimate in audio quality with the Sony Noise-Canceling Headphones. Block out distractions and immerse yourself in your music with these high-quality headphones. Take advantage of the current offer and elevate your listening experience.",
+      "bulletPoints": [
+        "Premium noise-canceling headphones",
+        "Available in black and white",
+        "Positive customer feedback (4 stars)",
+        "Special discount available"
+      ]
     },
     {
       "id": 8,
@@ -109,9 +165,17 @@
       "category": "shoes",
       "brand": "Adidas",
       "offer": "15",
-      "rating": 4.4,
+      "rating": 4,
+      "reviews": 10,
       "colors": ["white", "black"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "Adidas Men's Sneakers offer a combination of style and comfort for men on the go. These sneakers are perfect for everyday wear and are available in classic black and white colors. Grab them now with a special discount!",
+      "bulletPoints": [
+        "Stylish men's sneakers",
+        "Available in white and black",
+        "Positive customer reviews (4 stars)",
+        "Great discount available"
+      ]
     },
     {
       "id": 9,
@@ -123,9 +187,17 @@
       "category": "electronics",
       "brand": "Apple",
       "offer": "10",
-      "rating": 4.9,
+      "rating": 5,
+      "reviews": 11,
       "colors": ["silver", "blue"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The Apple iPhone 14 is the pinnacle of smartphone technology. Packed with advanced features and cutting-edge design, this iPhone is a must-have for tech enthusiasts. Choose from elegant silver and bold blue colors and enjoy a limited-time offer!",
+      "bulletPoints": [
+        "Latest iPhone with advanced features",
+        "Available in silver and blue",
+        "High customer rating (5 stars)",
+        "Limited-time offer"
+      ]
     },
     {
       "id": 10,
@@ -137,9 +209,17 @@
       "category": "electronics",
       "brand": "Dell",
       "offer": "14",
-      "rating": 4.7,
+      "rating": 4,
+      "reviews": 12,
       "colors": ["silver", "black"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The Dell 15-inch Laptop is a powerhouse that's perfect for both work and play. With its powerful performance and sleek design, this Dell laptop is a great choice for users seeking versatility and style. Get it now with a limited-time offer!",
+      "bulletPoints": [
+        "Powerful 15-inch laptop",
+        "Available in silver and black",
+        "Positive customer reviews (4 stars)",
+        "Limited-time discount"
+      ]
     },
     {
       "id": 11,
@@ -151,9 +231,17 @@
       "category": "electronics",
       "brand": "Canon",
       "offer": "10",
-      "rating": 4.8,
+      "rating": 3,
+      "reviews": 35,
       "colors": ["black"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The Canon EOS Rebel DSLR Camera is your ticket to capturing stunning photos and unleashing your creativity. This DSLR camera from Canon offers exceptional image quality and versatility. Get it now with a limited-time offer!",
+      "bulletPoints": [
+        "High-quality DSLR camera",
+        "Available in black",
+        "Mixed customer reviews (3 stars)",
+        "Special discount available"
+      ]
     },
     {
       "id": 12,
@@ -165,9 +253,17 @@
       "category": "shoes",
       "brand": "Puma",
       "offer": "15",
-      "rating": 4.4,
+      "rating": 5,
+      "reviews": 40,
       "colors": ["blue", "black"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "Puma Men's Running Shoes are built for durability and performance. Whether you're hitting the track or going for a jog, these Puma shoes will keep you comfortable and supported. Grab them now with a special discount!",
+      "bulletPoints": [
+        "Durable men's running shoes",
+        "Available in blue and black",
+        "High customer rating (5 stars)",
+        "Great discount available"
+      ]
     },
     {
       "id": 13,
@@ -179,9 +275,17 @@
       "category": "chairs",
       "brand": "FurnitureCo",
       "offer": "15",
-      "rating": 4.3,
+      "rating": 4,
+      "reviews": 52,
       "colors": ["black", "brown"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The Modern Leather Chair from FurnitureCo is a perfect blend of sleek design and comfort. Whether you're lounging or working, this leather chair offers a stylish and relaxing seating solution. Get it now with a special discount!",
+      "bulletPoints": [
+        "Sleek and comfortable leather chair",
+        "Available in black and brown",
+        "Positive customer reviews (4 stars)",
+        "Great discount available"
+      ]
     },
     {
       "id": 14,
@@ -193,9 +297,17 @@
       "category": "chairs",
       "brand": "HomeStyle",
       "offer": "20",
-      "rating": 4.5,
+      "rating": 2,
+      "reviews": 34,
       "colors": ["oak", "walnut"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The Wooden Dining Chair by HomeStyle adds a touch of classic charm to your dining space. Crafted from quality wood, this chair is not only stylish but also durable. Grab it now with a special discount!",
+      "bulletPoints": [
+        "Classic wooden dining chair",
+        "Available in oak and walnut",
+        "Mixed customer reviews (2 stars)",
+        "Limited-time discount"
+      ]
     },
     {
       "id": 15,
@@ -207,9 +319,17 @@
       "category": "chairs",
       "brand": "WorkSmart",
       "offer": "18",
-      "rating": 4.7,
+      "rating": 1,
+      "reviews": 44,
       "colors": ["black", "gray"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The Ergonomic Office Chair from WorkSmart is designed for those who prioritize comfort and support during long work hours. With its ergonomic design and lumbar support, this office chair helps you stay productive. Get it now with a limited-time offer!",
+      "bulletPoints": [
+        "Ergonomic office chair with lumbar support",
+        "Available in black and gray",
+        "Low customer rating (1 star)",
+        "Special discount available"
+      ]
     },
     {
       "id": 16,
@@ -221,9 +341,17 @@
       "category": "chairs",
       "brand": "RetroLiving",
       "offer": "23",
-      "rating": 4.2,
+      "rating": 5,
+      "reviews": 28,
       "colors": ["white", "oak"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The Vintage Rocking Chair by RetroLiving brings a touch of nostalgia to your relaxation time. Whether you're reading a book or enjoying a quiet moment, this rocking chair offers the perfect escape. Get it now with a special discount!",
+      "bulletPoints": [
+        "Nostalgic rocking chair for relaxation",
+        "Available in white and oak",
+        "High customer rating (5 stars)",
+        "Great discount available"
+      ]
     },
     {
       "id": 17,
@@ -235,9 +363,17 @@
       "category": "chairs",
       "brand": "KitchenElegance",
       "offer": "10",
-      "rating": 4.4,
+      "rating": 4,
+      "reviews": 19,
       "colors": ["black", "chrome"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The Swivel Bar Stool by KitchenElegance adds a touch of modern style to your kitchen or bar area. With its adjustable height and swivel feature, it's both functional and stylish. Grab it now with a limited-time offer!",
+      "bulletPoints": [
+        "Adjustable swivel bar stool for your kitchen",
+        "Available in black and chrome",
+        "Positive customer reviews (4 stars)",
+        "Special discount available"
+      ]
     },
     {
       "id": 18,
@@ -249,9 +385,17 @@
       "category": "chairs",
       "brand": "ComfortZone",
       "offer": "15",
-      "rating": 4.6,
+      "rating": 3,
+      "reviews": 69,
       "colors": ["gray", "beige"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The Plush Recliner Chair by ComfortZone is your ticket to ultimate relaxation and comfort. Whether you're watching TV or taking a nap, this recliner chair offers the perfect spot. Get it now with a special discount!",
+      "bulletPoints": [
+        "Cozy recliner chair for ultimate comfort",
+        "Available in gray and beige",
+        "Mixed customer reviews (3 stars)",
+        "Great discount available"
+      ]
     },
     {
       "id": 19,
@@ -263,9 +407,17 @@
       "category": "chairs",
       "brand": "OutdoorLiving",
       "offer": "20",
-      "rating": 4.3,
+      "rating": 2,
+      "reviews": 156,
       "colors": ["blue", "green"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The Outdoor Lounge Chair by OutdoorLiving is built to withstand the elements while providing comfort and style to your outdoor space. Enjoy relaxing moments on your patio with this durable lounge chair. Get it now with a special discount!",
+      "bulletPoints": [
+        "Durable outdoor lounge chair for your patio",
+        "Available in blue and green",
+        "Mixed customer reviews (2 stars)",
+        "Limited-time discount"
+      ]
     },
     {
       "id": 20,
@@ -277,9 +429,17 @@
       "category": "chairs",
       "brand": "KidZone",
       "offer": "25",
-      "rating": 4.0,
+      "rating": 4,
+      "reviews": 112,
       "colors": ["red", "blue"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The Kids' Playroom Chair by KidZone adds a pop of color and fun to your children's playroom. Let your kids enjoy their playtime in style and comfort with this colorful chair. Get it now with a special discount!",
+      "bulletPoints": [
+        "Colorful chair for kids' playrooms",
+        "Available in red and blue",
+        "Positive customer reviews (4 stars)",
+        "Great discount available"
+      ]
     },
     {
       "id": 21,
@@ -291,9 +451,17 @@
       "category": "chairs",
       "brand": "RetroLiving",
       "offer": "18",
-      "rating": 4.8,
+      "rating": 5,
+      "reviews": 98,
       "colors": ["yellow", "walnut"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The Mid-Century Modern Chair by RetroLiving is an iconic piece of furniture that adds a touch of mid-century modern design to your space. With its bold colors and sleek lines, it's a statement piece. Get it now with a special discount!",
+      "bulletPoints": [
+        "Iconic mid-century modern chair design",
+        "Available in yellow and walnut",
+        "High customer rating (5 stars)",
+        "Special discount available"
+      ]
     },
     {
       "id": 22,
@@ -303,11 +471,19 @@
       "price": 24.99,
       "description": "Portable folding chair for outdoor adventures",
       "category": "chairs",
-      "brand": "OutdoorGear",
-      "offer": "16",
-      "rating": 4.5,
-      "colors": ["green", "blue"],
-      "favorite": false
+      "brand": "OutdoorAdventure",
+      "offer": "17",
+      "rating": 4,
+      "reviews": 67,
+      "colors": ["blue", "green"],
+      "favorite": false,
+      "longDescription": "The Folding Camping Chair by OutdoorAdventure is your go-to chair for outdoor adventures. Whether you're camping, hiking, or attending outdoor events, this portable chair provides comfort and convenience. Get it now with a special discount!",
+      "bulletPoints": [
+        "Portable folding chair for outdoor adventures",
+        "Available in blue and green",
+        "Positive customer reviews (4 stars)",
+        "Limited-time discount"
+      ]
     },
     {
       "id": 23,
@@ -319,9 +495,18 @@
       "category": "chairs",
       "brand": "PorchLife",
       "offer": "22",
-      "rating": 4.7,
+      "rating": 5,
+      "reviews": 65,
       "colors": ["navy", "pink"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The Velvet Accent Chair is a true statement piece for your living room. With its luxurious velvet upholstery and comfortable design, it not only adds a touch of elegance to your home but also provides a cozy spot to relax. Whether you're reading a book or simply unwinding after a long day, this chair is the perfect choice.",
+      "bulletPoints": [
+        "Luxurious velvet upholstery",
+        "Comfortable and stylish design",
+        "Available in navy and pink",
+        "Great addition to any living room",
+        "Discounted price for a limited time"
+      ]
     },
     {
       "id": 24,
@@ -333,9 +518,18 @@
       "category": "chairs",
       "brand": "NaturalLiving",
       "offer": "15",
-      "rating": 4.6,
+      "rating": 4,
+      "reviews": 79,
       "colors": ["natural", "white"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The Rattan Dining Chair is a versatile and stylish choice for both indoor and outdoor dining. Crafted with high-quality rattan, it offers durability and a natural aesthetic. Whether you're hosting a dinner party or enjoying a meal on your patio, this chair provides comfort and elegance.",
+      "bulletPoints": [
+        "High-quality rattan construction",
+        "Suitable for indoor and outdoor use",
+        "Available in natural and white",
+        "Excellent choice for dining areas",
+        "Limited-time discount available"
+      ]
     },
     {
       "id": 25,
@@ -347,9 +541,18 @@
       "category": "chairs",
       "brand": "ComfySacks",
       "offer": "20",
-      "rating": 4.2,
+      "rating": 4,
+      "reviews": 87,
       "colors": ["gray", "blue"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The Lounge Bean Bag Chair is the ultimate relaxation companion for all ages. Its ergonomic design provides optimal comfort, making it perfect for reading, gaming, or simply lounging around. With a wide range of colors to choose from, it's a great addition to any room.",
+      "bulletPoints": [
+        "Ergonomic and comfortable design",
+        "Ideal for reading and gaming",
+        "Available in gray and blue",
+        "Suitable for all ages",
+        "Limited-time discount available"
+      ]
     },
     {
       "id": 26,
@@ -361,9 +564,18 @@
       "category": "chairs",
       "brand": "PorchLife",
       "offer": "17",
-      "rating": 4.4,
+      "rating": 3,
+      "reviews": 91,
       "colors": ["brown", "white"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The Wicker Rocking Chair adds charm and relaxation to your porch or outdoor space. Crafted with durable wicker material, it's designed for comfort and aesthetics. Whether you're sipping your morning coffee or enjoying the sunset, this rocking chair is the perfect companion.",
+      "bulletPoints": [
+        "Charming wicker construction",
+        "Designed for porch relaxation",
+        "Available in brown and white",
+        "Great for outdoor spaces",
+        "Limited-time discount available"
+      ]
     },
     {
       "id": 27,
@@ -375,9 +587,18 @@
       "category": "chairs",
       "brand": "ModernDesign",
       "offer": "15",
-      "rating": 4.4,
+      "rating": 4,
+      "reviews": 71,
       "colors": ["brown", "white"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The Barcelona Chair Replica is a timeless piece of furniture that adds a touch of elegance to modern interiors. Crafted with attention to detail, it replicates the classic Barcelona chair design. Whether you're furnishing your living room or office, this replica is a statement of style and sophistication.",
+      "bulletPoints": [
+        "Classic Barcelona chair design",
+        "Perfect for modern interiors",
+        "Available in brown and white",
+        "Adds elegance to any space",
+        "Limited-time discount available"
+      ]
     },
     {
       "id": 28,
@@ -389,9 +610,18 @@
       "category": "chairs",
       "brand": "ModernDesign",
       "offer": "15",
-      "rating": 4.4,
+      "rating": 3,
+      "reviews": 21,
       "colors": ["brown", "white"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The Comfort Chair Craft is a classic Barcelona chair replica designed for modern interiors. With its attention to detail and comfortable seating, it's an ideal addition to your home or office. Experience style and relaxation with this timeless piece.",
+      "bulletPoints": [
+        "Timeless Barcelona chair replica",
+        "Designed for modern interiors",
+        "Available in brown and white",
+        "Comfortable seating",
+        "Limited-time discount available"
+      ]
     },
     {
       "id": 29,
@@ -399,13 +629,22 @@
       "title": "Italian Sofa",
       "originalPrice": 499.99,
       "price": 369.99,
-      "description": "Classic italian sofa for modern interiors",
+      "description": "Classic Italian sofa for modern interiors",
       "category": "chairs",
       "brand": "EleganceHome",
       "offer": "15",
-      "rating": 4.4,
+      "rating": 4,
+      "reviews": 208,
       "colors": ["brown", "white"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The Italian Sofa is a classic piece of Italian craftsmanship designed for modern interiors. With its luxurious upholstery and timeless design, it's the perfect addition to your living room or lounge area. Experience comfort and sophistication with this Italian masterpiece.",
+      "bulletPoints": [
+        "Luxurious Italian craftsmanship",
+        "Ideal for modern interiors",
+        "Available in brown and white",
+        "Adds sophistication to any space",
+        "Limited-time discount available"
+      ]
     },
     {
       "id": 30,
@@ -417,9 +656,18 @@
       "category": "chairs",
       "brand": "EleganceHome",
       "offer": "25",
-      "rating": 4.4,
+      "rating": 5,
+      "reviews": 176,
       "colors": ["pink", "white"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The Bedroom Shell Chair is a perfect addition to modern bedrooms. Its shell-like design offers both style and comfort, making it an ideal choice for your bedroom decor. Enjoy relaxation and elegance with this beautiful shell chair.",
+      "bulletPoints": [
+        "Shell-like design for modern bedrooms",
+        "Comfortable and stylish",
+        "Available in pink and white",
+        "Enhances bedroom decor",
+        "Limited-time discount available"
+      ]
     },
     {
       "id": 31,
@@ -427,13 +675,22 @@
       "title": "Eams Sofa Compact",
       "originalPrice": 399.99,
       "price": 359.99,
-      "description": "Classic Eams sofa perfect for reading corner",
+      "description": "Classic Eames sofa perfect for reading corner",
       "category": "chairs",
       "brand": "EleganceHome",
       "offer": "50",
-      "rating": 4.4,
+      "rating": 4,
+      "reviews": 345,
       "colors": ["brown", "white"],
-      "favorite": false
+      "favorite": false,
+      "longDescription": "The Eames Sofa Compact is a classic piece of furniture designed for your reading corner. With its timeless Eames design and comfortable seating, it's the perfect spot for reading, relaxing, or simply enjoying a quiet moment. Elevate your reading nook with this elegant sofa.",
+      "bulletPoints": [
+        "Timeless Eames design",
+        "Perfect for reading corners",
+        "Available in brown and white",
+        "Comfortable and elegant",
+        "Limited-time discount available"
+      ]
     }
   ]
 }

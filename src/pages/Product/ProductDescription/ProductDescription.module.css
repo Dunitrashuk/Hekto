@@ -1,0 +1,46 @@
+.product__description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem 2rem;
+  background-color: #f9f8fe;
+  animation: fadeIn ease-in 0.3s forwards;
+}
+
+.product__description__content {
+  width: 144rem;
+}
+
+.description__nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  list-style: none;
+  text-decoration: none;
+  color: var(--color-black);
+  margin-bottom: 6rem;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-black);
+  transition: all 0.2s;
+}
+
+.link:hover {
+  text-decoration: underline 2px solid;
+}
+
+.activeLink {
+  color: var(--color-black);
+  text-decoration: underline 2px solid;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
