@@ -66,7 +66,7 @@ function ProductDetails({ product }) {
 
           <div className={classes.info__flex}>
             <p className="body-text-bold">Add to Cart: </p>
-            <CardButton type="Cart" product={product} />
+            <CardButton key={product.id} type="Cart" product={product} />
           </div>
 
           <div className={classes.info__flex}>

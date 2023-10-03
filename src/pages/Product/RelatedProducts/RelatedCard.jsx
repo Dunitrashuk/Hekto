@@ -4,20 +4,15 @@ import { Link } from "react-router-dom";
 import Svg from "../../../components/UI/Svg";
 
 function RelatedCard({ product }) {
-
-
-  function handleClick () {
-    
-  }
-
   return (
-    <Link to={`/product/${product.id}`} className={classes.related__card} onClick={handleClick}>
+    <Link to={`/product/${product.id}`} className={classes.related__card}>
       <div className={classes.related__img}>
         <img
           src={`http://127.0.0.1:8080/images/${product.imageUrl}`}
           alt={`product ${product.id} image`}
         />
       </div>
+
       <div className={classes.related__info}>
         <div>
           <h4 className="body-text-bold">{product.title}</h4>
