@@ -1,0 +1,109 @@
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13rem 2rem;
+  animation: fadeIn ease-in 0.3s forwards;
+}
+
+.details__content {
+  width: 144rem;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 0 2.5rem 1rem #f6f4fd;
+  gap: 2rem;
+  height: fit-content;
+  border-radius: 0.2rem;
+}
+
+.details__images {
+  display: grid;
+  flex: 1;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  padding: 1.3rem;
+  height: 50rem;
+  gap: 1.6rem;
+  flex-basis: 45rem;
+}
+
+.details__info {
+  flex: 1;
+  padding: 6rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  flex-basis: 40rem;
+}
+
+.details__info > svg {
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+.info__prices {
+  display: flex;
+  gap: 1.8rem;
+}
+
+.info__description {
+  color: #a9acc6;
+}
+
+.info__flex {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.info__rating {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.2rem;
+}
+
+.cell__sm {
+  background-color: var(--color-grey-1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell__main {
+  padding: 5rem 0;
+  background-color: var(--color-grey-1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 3;
+}
+
+.cell__main img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.blob {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 1rem;
+  font-size: 1.4rem;
+  color: #a9acc6;
+  background-color: #f6f4fd;
+  border-radius: 6rem;
+}

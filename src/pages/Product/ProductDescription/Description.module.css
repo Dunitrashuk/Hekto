@@ -1,0 +1,10 @@
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  line-height: 3rem;
+}
+
+.list {
+  margin-left: 1.5rem;
+}

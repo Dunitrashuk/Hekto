@@ -1,0 +1,33 @@
+.related {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem 2rem;
+}
+
+.related__content {
+  min-height: 60rem;
+  width: 144rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 4.7rem;
+  width: 100%;
+  gap: 4rem;
+  animation: fadeInOut 0.3s ease-in-out;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

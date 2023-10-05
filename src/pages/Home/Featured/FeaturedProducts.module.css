@@ -1,0 +1,15 @@
+.featured {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.featured__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 144rem;
+  padding: 13.5rem 0;
+}

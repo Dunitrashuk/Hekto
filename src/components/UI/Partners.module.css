@@ -1,0 +1,17 @@
+.partners {
+  display: flex;
+  justify-content: center;
+  padding: 10rem 2rem;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 144rem;
+}
+
+.image {
+  width: 90%;
+  object-fit: contain;
+}

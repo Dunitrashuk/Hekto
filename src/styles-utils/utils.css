@@ -1,0 +1,12 @@
+.originalPrice {
+  color: var(--color-primary);
+  text-decoration: line-through solid 1px;
+}
+
+.text-color-grey {
+  color: #a9acc6;
+}
+
+.u-margin-top-sm {
+  margin-top: 2rem;
+}

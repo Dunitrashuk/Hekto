@@ -1,0 +1,52 @@
+.related__card {
+  height: 50rem;
+  max-width: 22.5%;
+  min-width: 30rem;
+  border-radius: 0.3rem;
+  overflow: hidden;
+  background-color: var(--color-grey-1);
+  text-decoration: none;
+  color: var(--color-black);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.related__card:hover .related__img img {
+  transform: scale(0.9) translateY(-1rem);
+}
+
+.related__img {
+  height: 80%;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.related__img img {
+  height: 85%;
+  width: 85%;
+  object-fit: contain;
+  transition: all 0.2s;
+}
+
+.related__info {
+  display: flex;
+  align-items: center;
+  padding: 2.2rem 0.6rem;
+  height: 20%;
+  background-color: var(--color-white);
+}
+
+.rating {
+  margin-left: auto;
+  align-self: flex-start;
+  display: flex;
+  gap: 0.2rem;
+}
+
+.rating svg {
+  height: 1.2rem;
+  width: 1.2rem;
+}
