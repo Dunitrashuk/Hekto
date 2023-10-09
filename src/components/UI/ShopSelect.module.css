@@ -1,0 +1,54 @@
+.shop__select {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+  z-index: 5000;
+  border: 1px solid #e7e6ef;
+  padding: 0.5rem 1rem;
+  color: var(--color-grey-3);
+}
+
+.shop__select svg {
+  height: 1.6rem;
+  width: 1.6rem;
+  fill: none;
+  stroke: var(--color-grey-3);
+  transition: transform 0.2s;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: max-content;
+  background-color: var(--color-white);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  outline: 1px solid #e7e6ef;
+}
+
+.dropdown ul {
+  list-style: none;
+}
+
+.dropdown li {
+  padding: 0.5rem 1rem;
+  transition: all 0.2s;
+}
+
+.dropdown li:hover {
+  background-color: var(--color-grey-1);
+}
+
+.svg__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.svg__open svg {
+  transform: rotate(-180deg);
+}
