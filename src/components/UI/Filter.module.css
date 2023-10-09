@@ -1,0 +1,30 @@
+/* custom-checkbox.css */
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  cursor: pointer;
+  width: fit-content;
+  color: #7e81a2;
+}
+
+.checkbox__box {
+  height: 1.6rem;
+  width: 1.6rem;
+  padding: 0.46rem 0.33rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox__sign {
+  height: 1.6rem;
+  width: 1.6rem;
+  fill: var(--color-white);
+}
+
+.checkbox__label {
+  width: fit-content;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
