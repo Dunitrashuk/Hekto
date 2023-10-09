@@ -5,6 +5,8 @@ function Svg(props) {
   const styles = {
     fill: props.fill,
     stroke: props.stroke,
+    height: props.height || "",
+    width: props.width || "",
   };
 
   return (

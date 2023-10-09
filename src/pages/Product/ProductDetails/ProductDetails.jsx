@@ -43,7 +43,7 @@ function ProductDetails({ product }) {
                   key={idx}
                   id="Star"
                   fill={
-                    idx <= product.rating
+                    idx <= product.rating - 1
                       ? "var(--color-secondary)"
                       : "var(--color-grey-2)"
                   }
