@@ -1,0 +1,27 @@
+.shop {
+  display: flex;
+  justify-content: center;
+  padding: 12.4rem 2rem;
+  animation: fadeIn ease-in 0.2s;
+}
+
+.shop__content {
+  width: 144rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
+
+.flex {
+  display: flex;
+  flex: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
