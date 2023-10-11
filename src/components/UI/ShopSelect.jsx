@@ -1,10 +1,52 @@
 import React, { useEffect, useState } from "react";
 import classes from "./ShopSelect.module.css";
 import Svg from "./Svg";
+import { useSearchParams } from "react-router-dom";
+
+const sortOptions = {
+  "Best Match": ["offer", "asc"],
+  "Lowest Price": ["price", "asc"],
+  "Highest Price": ["price", "desc"],
+  "A-Z": ["title", "asc"],
+  "Z-A": ["title", "desc"],
+};
+
+function getObjectKey(obj, value) {
+  return Object.keys(obj).find(
+    (key) => obj[key][0] === value[0] && obj[key][1] === value[1]
+  );
+}
 
 function ShopSelect(props) {
-  const [value, setValue] = useState(props.options[1]);
+  const [value, setValue] = useState("");
   const [isOpen, setIsOpen] = useState(false);
+  let [searchParams, setSearchParams] = useSearchParams();
+
+  useEffect(() => {
+    setSearchParams((oldParams) => {
+      const newParams = new URLSearchParams(oldParams);
+
+      newParams.set("_sort", "price");
+      newParams.set("_order", "asc");
+      newParams.set("_page", "1");
+      newParams.set("_limit", 15);
+
+      return newParams;
+    });
+  }, []);
+
+  useEffect(() => {
+    if (props.type === "sort") {
+      setValue(
+        getObjectKey(sortOptions, [
+          searchParams.get("_sort"),
+          searchParams.get("_order"),
+        ])
+      );
+    } else {
+      setValue(searchParams.get("_limit") || "15");
+    }
+  }, [searchParams]);
 
   function openSelect() {
     setIsOpen((prev) => !prev);
@@ -13,6 +55,19 @@ function ShopSelect(props) {
   function closeSelect(e) {
     if (value === e.target.value) return;
     setValue(e.target.textContent);
+
+    setSearchParams((oldParams) => {
+      const newParams = new URLSearchParams(oldParams);
+
+      if (props.type === "sort") {
+        newParams.set("_sort", sortOptions[e.target.textContent][0]);
+        newParams.set("_order", sortOptions[e.target.textContent][1]);
+      } else {
+        newParams.set(props.type, e.target.textContent);
+      }
+
+      return newParams;
+    });
   }
 
   return (
