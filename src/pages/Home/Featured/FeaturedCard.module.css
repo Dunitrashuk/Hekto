@@ -97,6 +97,18 @@
   transform: scale(0.8) translateY(-2rem);
 }
 
+.colors__container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.color {
+  height: 0.6rem;
+  width: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid grey;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
