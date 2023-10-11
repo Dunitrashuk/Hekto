@@ -1,0 +1,12 @@
+.view__button {
+  cursor: pointer;
+  transition: none;
+}
+
+.view__button svg {
+  fill: var(--color-black);
+}
+
+.view__button:hover svg {
+  fill: var(--color-primary-dark);
+}

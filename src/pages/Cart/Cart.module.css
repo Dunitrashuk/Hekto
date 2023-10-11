@@ -1,0 +1,13 @@
+.cart {
+  display: flex;
+  justify-content: center;
+  padding: 5rem 2rem;
+}
+
+.content {
+  width: 144rem;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  overflow-x: scroll;
+}
