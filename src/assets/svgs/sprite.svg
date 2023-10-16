@@ -61,4 +61,11 @@
     <path d="M4.66683 6.66675H2.00016C1.63197 6.66675 1.3335 6.96522 1.3335 7.33341V10.0001C1.3335 10.3683 1.63197 10.6667 2.00016 10.6667H4.66683C5.03502 10.6667 5.3335 10.3683 5.3335 10.0001V7.33341C5.3335 6.96522 5.03502 6.66675 4.66683 6.66675Z"></path>
     <path d="M9.99984 6.66675H7.33317C6.96498 6.66675 6.6665 6.96522 6.6665 7.33341V10.0001C6.6665 10.3683 6.96498 10.6667 7.33317 10.6667H9.99984C10.368 10.6667 10.6665 10.3683 10.6665 10.0001V7.33341C10.6665 6.96522 10.368 6.66675 9.99984 6.66675Z"></path>
   </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="cross">
+    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+    <g id="SVGRepo_iconCarrier">
+      <path d="M20 20L4 4.00003M20 4L4.00002 20" stroke-width="2" stroke-linecap="round"></path>
+    </g>
+  </symbol>
 </svg>
