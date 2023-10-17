@@ -1,36 +1,50 @@
 import React, { useEffect, useState } from "react";
 import classes from "./View.module.css";
 import { useSearchParams } from "react-router-dom";
-import FeaturedCard from "../../Home/Featured/FeaturedCard";
 import Svg from "../../../components/UI/Svg";
 import GridView from "./GridView";
 import ListView from "./ListView";
+import Pagination from "../Pagination/Pagination";
 
 function View(props) {
-  let [searchParams, setSearchParams] = useSearchParams();
+  const [headers, setHeaders] = useState("");
+  const [searchParams, setSearchParams] = useSearchParams();
   const [products, setProducts] = useState([]);
 
-  let url = "";
-  for (let [type, value] of searchParams.entries()) {
-    url += `${type}=${value}&`;
-  }
+  useEffect(() => {
+    setSearchParams((oldParams) => {
+      const newParams = new URLSearchParams(oldParams);
+
+      newParams.set("_sort", searchParams.get("_sort") || "price");
+      newParams.set("_order", searchParams.get("_order") || "asc");
+      newParams.set("_page", searchParams.get("_page") || "1");
+      newParams.set("_limit", searchParams.get("_limit") || "10");
+
+      return newParams;
+    });
+  }, []);
 
   useEffect(() => {
-    fetch(`http://localhost:3000/products?${url}`)
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
-        return response.json();
-      })
-      .then((data) => {
-        setProducts(data);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+    if (searchParams.size) {
+      fetch(`http://localhost:3000/products?${searchParams.toString()}`)
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error("Network response was not ok");
+          }
 
-    window.scrollTo(0, 400);
+          setHeaders(response.headers.get("link"));
+          console.log(headers);
+
+          return response.json();
+        })
+        .then((data) => {
+          setProducts(data);
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+      window.scrollTo(0, 400);
+    }
   }, [searchParams]);
 
   if (products.length === 0) {
@@ -50,6 +64,8 @@ function View(props) {
       {props.viewStyle === "list" && products.length > 0 && (
         <ListView products={products} />
       )}
+
+      {/* <Pagination headers={headers} /> */}
     </div>
   );
 }

@@ -23,19 +23,6 @@ function ShopSelect(props) {
   let [searchParams, setSearchParams] = useSearchParams();
 
   useEffect(() => {
-    setSearchParams((oldParams) => {
-      const newParams = new URLSearchParams(oldParams);
-
-      newParams.set("_sort", "price");
-      newParams.set("_order", "asc");
-      newParams.set("_page", "1");
-      newParams.set("_limit", 15);
-
-      return newParams;
-    });
-  }, []);
-
-  useEffect(() => {
     if (props.type === "sort") {
       setValue(
         getObjectKey(sortOptions, [
@@ -44,7 +31,8 @@ function ShopSelect(props) {
         ])
       );
     } else {
-      setValue(searchParams.get("_limit") || "15");
+      setValue(searchParams.get("_page") || "1");
+      setValue(searchParams.get("_limit") || "10");
     }
   }, [searchParams]);
 
