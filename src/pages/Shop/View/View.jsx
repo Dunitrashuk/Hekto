@@ -7,7 +7,7 @@ import ListView from "./ListView";
 import Pagination from "../Pagination/Pagination";
 
 function View(props) {
-  const [headers, setHeaders] = useState("");
+  const [count, setCount] = useState("");
   const [searchParams, setSearchParams] = useSearchParams();
   const [products, setProducts] = useState([]);
 
@@ -32,8 +32,7 @@ function View(props) {
             throw new Error("Network response was not ok");
           }
 
-          setHeaders(response.headers.get("link"));
-          console.log(headers);
+          setCount(response.headers.get("x-total-count"));
 
           return response.json();
         })
@@ -65,7 +64,7 @@ function View(props) {
         <ListView products={products} />
       )}
 
-      {/* <Pagination headers={headers} /> */}
+      <Pagination count={count} />
     </div>
   );
 }
