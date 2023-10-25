@@ -1,8 +1,10 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useSearchParams } from "react-router-dom";
 import classes from "./NavLinks.module.css";
 
 function NavLinks() {
+  const [searchParams, setSearchParams] = useSearchParams();
+
   return (
     <nav>
       <ul className={classes.nav__links}>
@@ -20,7 +22,7 @@ function NavLinks() {
         </li>
         <li>
           <NavLink
-            to="/shop"
+            to={"/shop?" + searchParams.toString()}
             className={({ isActive }) =>
               (isActive ? classes.activeLink : classes.link) +
               " body-text-regular-sm"

@@ -1,13 +1,140 @@
 .cart {
   display: flex;
   justify-content: center;
-  padding: 5rem 2rem;
+  padding: 0 2rem;
 }
 
-.content {
+.cart__content {
+  padding: 13rem 0;
+  display: flex;
   width: 144rem;
+  gap: 8rem;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.items__titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.total {
+  flex: 1;
+  text-align: center;
+}
+
+.total__container {
+  margin-top: 4.2rem;
+  background-color: var(--color-grey-1);
+  padding: 4rem 3.2rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 3.4rem;
+}
+
+.total__container__line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #1d3178;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--color-grey-2);
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  width: 60%;
+}
+
+.simple__flex {
+  display: flex;
+  color: #8a91ab;
+  font-size: 1.2rem;
+  gap: 1rem;
+}
+
+.total__svg {
+  height: 1rem;
+  width: 1rem;
+  background-color: var(--color-success);
+  border-radius: 0.3rem;
   display: flex;
   align-items: center;
-  gap: 4rem;
-  overflow-x: scroll;
+  justify-content: center;
+}
+
+.total__svg > svg {
+  height: 0.7rem;
+  width: 0.7rem;
+  background-color: var(--color-success);
+  border-radius: 0.3rem;
+}
+
+.checkout__button {
+  text-decoration: none;
+  color: var(--color-white);
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-success);
+  border-radius: 0.3rem;
+  font-size: 1.4rem;
+  transition: all 0.2s;
+}
+
+.clear__button {
+  margin-top: 5rem;
+  align-self: flex-end;
+}
+
+.not__found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15rem 0;
+}
+
+.not__found svg {
+  margin-top: 5rem;
+  fill: var(--color-tertiary);
+  opacity: 0.2;
+  animation: wiggle 2s linear infinite;
+}
+
+@keyframes wiggle {
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
 }

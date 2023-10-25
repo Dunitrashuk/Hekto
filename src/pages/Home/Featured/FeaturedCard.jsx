@@ -18,6 +18,15 @@ function FeaturedCard({ product }) {
       </div>
       <div className={classes.featured__info}>
         <h4 className="body-text-regular">{product.title.slice(0, 24)}</h4>
+        <div className={classes.colors__container}>
+          {product.colors.map((color, idx) => (
+            <div
+              key={idx}
+              style={{ backgroundColor: color }}
+              className={classes.color}
+            ></div>
+          ))}
+        </div>
         <p className="body-text-regular-sm">{product.brand}</p>
         <p className="body-text-regular-sm">${product.price}</p>
       </div>

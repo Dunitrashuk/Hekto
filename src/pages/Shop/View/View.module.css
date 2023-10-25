@@ -1,12 +1,15 @@
 .view {
   flex: 4;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
 }
 
 .grid__view {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: min-content;
-  justify-items: flex-end;
+  justify-items: flex-start;
   gap: 4rem;
 }
 

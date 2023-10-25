@@ -1,7 +1,6 @@
 import React from "react";
 import classes from "./TopBar.module.css";
 import ShopSelect from "../../../components/UI/ShopSelect";
-import Svg from "../../../components/UI/Svg";
 import ViewButton from "../../../components/UI/ViewButton";
 
 function TopBar(props) {
@@ -15,7 +14,7 @@ function TopBar(props) {
       <div className={classes.topbar__options}>
         <div className={classes.option__container}>
           <h5 className={classes.option__title}>Per Page: </h5>
-          <ShopSelect options={[5, 10, 15, 20, 30]} type="page" />
+          <ShopSelect options={[5, 10, 15, 20, 30]} type="_limit" />
         </div>
         <div className={classes.option__container}>
           <h5 className={classes.option__title}>Sort: </h5>
@@ -32,15 +31,8 @@ function TopBar(props) {
         </div>
         <div className={classes.option__container}>
           <h5 className={classes.option__title}>View: </h5>
-
-          <ViewButton
-            setViewStyle={props.setView}
-            type={"grid"}
-          />
-          <ViewButton
-            setViewStyle={props.setView}
-            type={"list"}
-          />
+          <ViewButton setViewStyle={props.setView} type={"grid"} />
+          <ViewButton setViewStyle={props.setView} type={"list"} />
         </div>
       </div>
     </div>
