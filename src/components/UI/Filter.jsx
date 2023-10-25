@@ -21,6 +21,7 @@ function Filter(props) {
       } else {
         newParams.append(props.type, props.value);
       }
+      newParams.set("_page", 1);
 
       return newParams;
     });

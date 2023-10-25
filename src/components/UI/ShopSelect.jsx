@@ -52,6 +52,7 @@ function ShopSelect(props) {
         newParams.set("_order", sortOptions[e.target.textContent][1]);
       } else {
         newParams.set(props.type, e.target.textContent);
+        newParams.set("_page", 1);
       }
 
       return newParams;

@@ -21,6 +21,9 @@ function ColorFilter(props) {
       } else {
         newParams.append(props.type + "_like", props.value);
       }
+      
+      newParams.set("_page", 1);
+
 
       return newParams;
     });
